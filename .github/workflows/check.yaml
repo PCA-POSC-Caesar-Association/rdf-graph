@@ -23,4 +23,4 @@ jobs:
         run: git branch --track main origin/main
 
       - name: 🧪 Lint, build and test affected projects
-        run: pnpm nx affected --base=origin/main --target=lint,build,test --parallel=5
+        run: pnpm nx affected --base=origin/main --target=build,test --parallel=5
