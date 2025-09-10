@@ -1,6 +1,6 @@
 {
 	"name": "@posccaesar/rdf-graph",
-	"version": "0.25.0",
+	"version": "0.26.0",
 	"description": "Visualize RDF as a graph network",
 	"repository": {
 		"type": "git",
