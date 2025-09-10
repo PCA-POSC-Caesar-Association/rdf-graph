@@ -1,10 +1,10 @@
 {
-	"name": "@equinor/rdf-graph-go",
+	"name": "@posccaesar/rdf-graph-go",
 	"version": "0.7.0",
 	"description": "Visualize RDF as a graph network",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/equinor/rdf-graph"
+		"url": "https://github.com/PCA-POSC-Caesar-Association/rdf-graph"
 	},
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org",
@@ -36,13 +36,11 @@
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "tsc --project tsconfig.build.json",
-		"prepack": "pnpm nx build @equinor/rdf-graph-go",
+		"prepack": "pnpm nx build @posccaesar/rdf-graph-go",
 		"lint": "eslint .",
 		"test": "vitest run --pass-with-no-tests",
 		"clean": "rm -rf dist",
-		"clean:build": "rm -rf dist && rm tsconfig.build.tsbuildinfo",
-		"snyk-test": "snyk test --severity-threshold=high",
-		"snyk-monitor": "snyk monitor"
+		"clean:build": "rm -rf dist && rm tsconfig.build.tsbuildinfo"
 	},
 	"files": [
 		"dist",
@@ -55,7 +53,7 @@
 		"react": ">=18.2.0"
 	},
 	"dependencies": {
-		"@equinor/rdf-graph": "workspace:*",
+		"@posccaesar/rdf-graph": "workspace:*",
 		"gojs": "^2.2.22"
 	},
 	"devDependencies": {

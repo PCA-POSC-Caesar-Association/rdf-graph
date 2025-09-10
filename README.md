@@ -1,6 +1,3 @@
-# Archived
-Observations indicate that there are no active users for this project. As a result, maintenance has ceased, and the repository has been archived. This change ensures the code remains available in a read-only format, signifying that active development and maintenance are no longer underway.
-
 # rdf-graph
 
 An open source library for visualizing RDF as a graph network.
@@ -9,10 +6,10 @@ An open source library for visualizing RDF as a graph network.
 
 | Package  | Version | Description |
 | ------------- | ------------- | ------------- |
-| [@equinor/rdf-graph](libs/core/) | [![core version](https://img.shields.io/npm/v/@equinor/rdf-graph)](libs/core/CHANGELOG.md) | Core library |
-| [@equinor/rdf-graph-go](libs/go/) | [![go version](https://img.shields.io/npm/v/@equinor/rdf-graph-go)](libs/go/CHANGELOG.md) | GoJS UI Implementation |
-| [@equinor/rdf-graph-cy](libs/cy/) | [![cy version](https://img.shields.io/npm/v/@equinor/rdf-graph-cy)](libs/cy/CHANGELOG.md) | Cytoscape.js UI Implementation |
-| [@equinor/rdf-graph-fg3d](libs/fg3d/) | [![fg3d version](https://img.shields.io/npm/v/@equinor/rdf-graph-fg3d)](libs/fg3d/CHANGELOG.md) | 3D Force-Directed UI Implementation |
+| [@posccaesar/rdf-graph](libs/core/) | [![core version](https://img.shields.io/npm/v/@posccaesar/rdf-graph)](libs/core/CHANGELOG.md) | Core library |
+| [@posccaesar/rdf-graph-go](libs/go/) | [![go version](https://img.shields.io/npm/v/@posccaesar/rdf-graph-go)](libs/go/CHANGELOG.md) | GoJS UI Implementation |
+| [@posccaesar/rdf-graph-cy](libs/cy/) | [![cy version](https://img.shields.io/npm/v/@posccaesar/rdf-graph-cy)](libs/cy/CHANGELOG.md) | Cytoscape.js UI Implementation |
+| [@posccaesar/rdf-graph-fg3d](libs/fg3d/) | [![fg3d version](https://img.shields.io/npm/v/@posccaesar/rdf-graph-fg3d)](libs/fg3d/CHANGELOG.md) | 3D Force-Directed UI Implementation |
 
 ## Releasing a new version
 1. Update package number for the relevant `package.json` located in a subfolder of the `libs` folder.
@@ -24,12 +21,12 @@ Spin up the development application for a demonstration of the library and diffe
 
 ```sh
 # Clone repo
-git clone git@github.com:equinor/rdf-graph.git
+git clone git@github.com:PCA-POSC-Caesar-Association/rdf-graph.git
 
 # Install pnpm (if not already installed)
 # https://pnpm.io/installation
 
-# Install dependencies 
+# Install dependencies
 cd rdf-graph && pnpm install
 
 # Open development app
@@ -42,5 +39,4 @@ See our [contributing guide](CONTRIBUTING.md).
 
 ## License
 
-The core of this project is open source, but the [@equinor/rdf-graph-go](https://www.npmjs.com/package/@equinor/rdf-graph-go) package requires a GoJS [software license](https://gojs.net/latest/license.html).
-
+The core of this project is open source, but the [@posccaesar/rdf-graph-go](https://www.npmjs.com/package/@posccaesar/rdf-graph-go) package requires a GoJS [software license](https://gojs.net/latest/license.html).
