@@ -5,7 +5,7 @@ import { internalApplyPatches } from './applyPatch';
 import { layoutDagre } from './layout';
 import { imageHeightKey, imageWidthKey, NodeType } from './common';
 
-import { GraphPatch, RdfGraphProps, UiSymbol } from '@equinor/rdf-graph';
+import { GraphPatch, RdfGraphProps, UiSymbol } from '@posccaesar/rdf-graph';
 
 const defaultDiagramStyle: React.CSSProperties = {
 	height: '100vh',

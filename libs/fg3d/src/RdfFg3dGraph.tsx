@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-import { GraphPatch, KnownPropKey, PatchProp, RdfGraphProps } from '@equinor/rdf-graph';
+import { GraphPatch, KnownPropKey, PatchProp, RdfGraphProps } from '@posccaesar/rdf-graph';
 
 import ForceGraph3D, { ForceGraph3DInstance } from '3d-force-graph';
 import { CustomGraphStore } from './custom.types';

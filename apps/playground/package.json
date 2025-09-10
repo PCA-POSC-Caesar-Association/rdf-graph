@@ -6,17 +6,15 @@
 	"scripts": {
 		"serve": "vite",
 		"build": "tsc && vite build",
-		"preview": "vite preview",
-		"snyk-test": "snyk test --severity-threshold=high",
-		"snyk-monitor": "snyk monitor"
+		"preview": "vite preview"
 	},
 	"dependencies": {
 		"3d-force-graph": "^1.70.13",
 		"@equinor/eds-icons": "^0.19.1",
-		"@equinor/rdf-graph": "workspace:*",
-		"@equinor/rdf-graph-cy": "workspace:*",
-		"@equinor/rdf-graph-fg3d": "workspace:*",
-		"@equinor/rdf-graph-go": "workspace:*",
+		"@posccaesar/rdf-graph": "workspace:*",
+		"@posccaesar/rdf-graph-cy": "workspace:*",
+		"@posccaesar/rdf-graph-fg3d": "workspace:*",
+		"@posccaesar/rdf-graph-go": "workspace:*",
 		"@tanstack/react-query": "^5.8.4",
 		"cytoscape": "^3.23.0",
 		"cytoscape-cola": "^2.5.1",

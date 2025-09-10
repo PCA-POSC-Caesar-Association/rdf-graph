@@ -2,7 +2,7 @@ import { forwardRef, useEffect, useImperativeHandle, useRef, useState } from 're
 import * as go from 'gojs';
 
 import { applyPatch } from './applyPatch';
-import { GraphSelection, RdfGraphProps } from '@equinor/rdf-graph';
+import { GraphSelection, RdfGraphProps } from '@posccaesar/rdf-graph';
 
 const defaultDiagramStyle: React.CSSProperties = {
 	height: '100vh',

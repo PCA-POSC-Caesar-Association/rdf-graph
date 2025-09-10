@@ -3,9 +3,9 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.24.1](https://github.com/equinor/rdf-graph/compare/@equinor/rdf-graph@0.24.0...@equinor/rdf-graph@0.24.1) (2024-03-19)
+## [0.24.1](https://github.com/equinor/rdf-graph/compare/@posccaesar/rdf-graph@0.24.0...@posccaesar/rdf-graph@0.24.1) (2024-03-19)
 
-**Note:** Version bump only for package @equinor/rdf-graph
+**Note:** Version bump only for package @posccaesar/rdf-graph
 
 
 
@@ -35,7 +35,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.21.1 (2023-04-12)
 
-**Note:** Version bump only for package @equinor/rdf-graph
+**Note:** Version bump only for package @posccaesar/rdf-graph
 
 
 

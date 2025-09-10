@@ -1,5 +1,5 @@
-import { UiSymbol } from '@equinor/rdf-graph';
-import { RdfCyGraph } from '@equinor/rdf-graph-cy';
+import { UiSymbol } from '@posccaesar/rdf-graph';
+import { RdfCyGraph } from '@posccaesar/rdf-graph-cy';
 
 import { getConnectorSymbolAdvanced, SymbolLibraryKey } from '../../symbol-api';
 import { useRdfGraph } from '../../hooks/useRdfGraph';

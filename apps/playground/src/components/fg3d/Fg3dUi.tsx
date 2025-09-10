@@ -1,4 +1,4 @@
-import { RdfFg3dGraph } from '@equinor/rdf-graph-fg3d';
+import { RdfFg3dGraph } from '@posccaesar/rdf-graph-fg3d';
 
 import { useRdfGraph } from '../../hooks/useRdfGraph';
 

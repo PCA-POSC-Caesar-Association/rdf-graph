@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { UiSymbol } from '@equinor/rdf-graph';
+import { UiSymbol } from '@posccaesar/rdf-graph';
 import { useEngineeringSymbolsQuery } from '../symbol-api/query/engSymbolQuery';
 
 type EngineeringSymbolsResult = {

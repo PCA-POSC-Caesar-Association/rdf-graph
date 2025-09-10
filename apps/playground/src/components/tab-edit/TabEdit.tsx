@@ -27,7 +27,7 @@ import {
 	highlightElement,
 	RdfPatch,
 	directPropConfig as P,
-} from '@equinor/rdf-graph';
+} from '@posccaesar/rdf-graph';
 
 import { kantoPokemons } from './pokemon';
 import { AddOrRemoveProp } from './AddOrRemoveProp';
