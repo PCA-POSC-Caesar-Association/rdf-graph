@@ -2,8 +2,8 @@ import { useRef } from 'react';
 import { defaultInitDiagram } from './init';
 import { getConnectorSymbol, SymbolLibraryKey } from '../../symbol-api';
 
-import { UiSymbol } from '@equinor/rdf-graph';
-import { RdfGoGraph, RdfGoGraphDiagramRef } from '@equinor/rdf-graph-go';
+import { UiSymbol } from '@posccaesar/rdf-graph';
+import { RdfGoGraph, RdfGoGraphDiagramRef } from '@posccaesar/rdf-graph-go';
 import { useRdfGraph } from '../../hooks/useRdfGraph';
 import { useEngineeringSymbols } from '../../hooks/useEngineeringSymbols';
 

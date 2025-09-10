@@ -1,4 +1,4 @@
-import { directPropConfig, DirectPropKey, KnownRdfPrefix, RdfPrefix } from '@equinor/rdf-graph';
+import { directPropConfig, DirectPropKey, KnownRdfPrefix, RdfPrefix } from '@posccaesar/rdf-graph';
 
 export type RdfNamespaceKey = 'io' | 'animals' | 'ex' | 'rec';
 

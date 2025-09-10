@@ -3,15 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.6.1](https://github.com/equinor/rdf-graph/compare/@equinor/rdf-graph-go@0.6.0...@equinor/rdf-graph-go@0.6.1) (2024-03-19)
+## [0.6.1](https://github.com/equinor/rdf-graph/compare/@posccaesar/rdf-graph-go@0.6.0...@posccaesar/rdf-graph-go@0.6.1) (2024-03-19)
 
-**Note:** Version bump only for package @equinor/rdf-graph-go
-
-
+**Note:** Version bump only for package @posccaesar/rdf-graph-go
 
 
 
-# [0.6.0](https://github.com/equinor/rdf-graph/compare/@equinor/rdf-graph-go@0.4.0...@equinor/rdf-graph-go@0.6.0) (2024-02-07)
+
+
+# [0.6.0](https://github.com/equinor/rdf-graph/compare/@posccaesar/rdf-graph-go@0.4.0...@posccaesar/rdf-graph-go@0.6.0) (2024-02-07)
 
 
 ### Features
@@ -22,7 +22,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.4.0](https://github.com/equinor/rdf-graph/compare/@equinor/rdf-graph-go@0.3.1...@equinor/rdf-graph-go@0.4.0) (2023-12-01)
+# [0.4.0](https://github.com/equinor/rdf-graph/compare/@posccaesar/rdf-graph-go@0.3.1...@posccaesar/rdf-graph-go@0.4.0) (2023-12-01)
 
 
 ### Features
@@ -33,7 +33,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [0.3.1](https://github.com/equinor/rdf-graph/compare/@equinor/rdf-graph-go@0.3.0...@equinor/rdf-graph-go@0.3.1) (2023-11-29)
+## [0.3.1](https://github.com/equinor/rdf-graph/compare/@posccaesar/rdf-graph-go@0.3.0...@posccaesar/rdf-graph-go@0.3.1) (2023-11-29)
 
 
 ### Bug Fixes
@@ -44,7 +44,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [0.3.0](https://github.com/equinor/rdf-graph/compare/@equinor/rdf-graph-go@0.2.1...@equinor/rdf-graph-go@0.3.0) (2023-05-04)
+# [0.3.0](https://github.com/equinor/rdf-graph/compare/@posccaesar/rdf-graph-go@0.2.1...@posccaesar/rdf-graph-go@0.3.0) (2023-05-04)
 
 
 ### Features
@@ -57,7 +57,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.2.1 (2023-04-12)
 
-**Note:** Version bump only for package @equinor/rdf-graph-go
+**Note:** Version bump only for package @posccaesar/rdf-graph-go
 
 
 

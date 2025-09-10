@@ -5,7 +5,7 @@ import {
 	GraphPatch,
 	GraphPropertyPatch,
 	UiSymbol,
-} from '@equinor/rdf-graph';
+} from '@posccaesar/rdf-graph';
 
 import {
 	imageHeightKey,

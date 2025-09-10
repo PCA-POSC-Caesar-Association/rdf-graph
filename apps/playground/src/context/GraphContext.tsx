@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useReducer } from 'react';
-import { GraphPatch, GraphState, N3QuadStore, RdfPatch } from '@equinor/rdf-graph';
+import { GraphPatch, GraphState, N3QuadStore, RdfPatch } from '@posccaesar/rdf-graph';
 import { useParams } from 'react-router-dom';
 import { UiKey } from '../setup';
 

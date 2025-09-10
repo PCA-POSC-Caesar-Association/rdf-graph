@@ -1,5 +1,5 @@
 import { Table } from '@equinor/eds-core-react';
-import { GraphEdge } from '@equinor/rdf-graph';
+import { GraphEdge } from '@posccaesar/rdf-graph';
 import { useGraphContext } from '../../context/GraphContext';
 import { RdfIri } from '../rdf-iri/RdfIri';
 

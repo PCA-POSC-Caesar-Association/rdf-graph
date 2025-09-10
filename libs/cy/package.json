@@ -1,10 +1,10 @@
 {
-	"name": "@equinor/rdf-graph-cy",
+	"name": "@posccaesar/rdf-graph-cy",
 	"version": "0.5.0",
 	"description": "Visualize RDF as a graph network",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/equinor/rdf-graph"
+		"url": "https://github.com/PCA-POSC-Caesar-Association/rdf-graph"
 	},
 	"publishConfig": {
 		"registry": "https://registry.npmjs.org",
@@ -13,23 +13,23 @@
 	"contributors": [
 		{
 			"name": "Lorentz Fjellanger Barstad",
-			"email": "loba@equinor.com"
+			"email": "lorentz.barstad@webstep.no"
 		},
 		{
 			"name": "Martin Tofteberg Ulvesæter",
-			"email": "mulv@equinor.com"
-		},
-		{
-			"name": "Dzianis Makeichyk",
-			"email": "dzm@equinor.com"
+			"email": "martin.ulvesaeter@webstep.no"
 		},
 		{
 			"name": "Eirik Nordstrand",
-			"email": "einor@equinor.com"
+			"email": "eirik.nordstrand@webstep.no"
 		},
 		{
 			"name": "Arne Måge",
-			"email": "arnm@equinor.com"
+			"email": "arne.mage@webstep.no"
+		},
+		{
+			"name": "Thora Mothes",
+			"email": "thora.mothes@webstep.no"
 		}
 	],
 	"license": "MIT",
@@ -39,9 +39,7 @@
 		"test": "vitest run --pass-with-no-tests",
 		"lint": "eslint .",
 		"clean": "rm -rf dist",
-		"prepack": "pnpm nx build @equinor/rdf-graph-cy",
-		"snyk-test": "snyk test --severity-threshold=high",
-		"snyk-monitor": "snyk monitor"
+		"prepack": "pnpm nx build @posccaesar/rdf-graph-cy"
 	},
 	"files": [
 		"dist",
@@ -54,7 +52,7 @@
 		"react": ">=18.2.0"
 	},
 	"dependencies": {
-		"@equinor/rdf-graph": "workspace:*",
+		"@posccaesar/rdf-graph": "workspace:*",
 		"cytoscape": "^3.23.0",
 		"cytoscape-cola": "^2.5.1",
 		"cytoscape-cose-bilkent": "^4.1.0",

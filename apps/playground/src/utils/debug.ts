@@ -1,4 +1,4 @@
-import { GraphPatch } from '@equinor/rdf-graph';
+import { GraphPatch } from '@posccaesar/rdf-graph';
 
 export function printGraphPatchesToConsole(patches: GraphPatch[]) {
 	patches.forEach((p) => {

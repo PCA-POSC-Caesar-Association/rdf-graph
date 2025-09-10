@@ -3,9 +3,9 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [0.4.1](https://github.com/equinor/rdf-graph/compare/@equinor/rdf-graph-cy@0.4.0...@equinor/rdf-graph-cy@0.4.1) (2024-03-19)
+## [0.4.1](https://github.com/equinor/rdf-graph/compare/@posccaesar/rdf-graph-cy@0.4.0...@posccaesar/rdf-graph-cy@0.4.1) (2024-03-19)
 
-**Note:** Version bump only for package @equinor/rdf-graph-cy
+**Note:** Version bump only for package @posccaesar/rdf-graph-cy
 
 
 
@@ -24,21 +24,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 0.2.3 (2023-11-29)
 
-**Note:** Version bump only for package @equinor/rdf-graph-cy
+**Note:** Version bump only for package @posccaesar/rdf-graph-cy
 
 
 
 
 
-## [0.2.2](https://github.com/equinor/rdf-graph/compare/@equinor/rdf-graph-cy@0.2.1...@equinor/rdf-graph-cy@0.2.2) (2023-04-12)
+## [0.2.2](https://github.com/equinor/rdf-graph/compare/@posccaesar/rdf-graph-cy@0.2.1...@posccaesar/rdf-graph-cy@0.2.2) (2023-04-12)
 
-**Note:** Version bump only for package @equinor/rdf-graph-cy
-
-
+**Note:** Version bump only for package @posccaesar/rdf-graph-cy
 
 
 
-## [0.2.1](https://github.com/equinor/rdf-graph/compare/@equinor/rdf-graph-cy@0.2.0...@equinor/rdf-graph-cy@0.2.1) (2023-04-12)
+
+
+## [0.2.1](https://github.com/equinor/rdf-graph/compare/@posccaesar/rdf-graph-cy@0.2.0...@posccaesar/rdf-graph-cy@0.2.1) (2023-04-12)
 
 
 ### Bug Fixes

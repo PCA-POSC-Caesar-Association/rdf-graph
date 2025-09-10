@@ -1,6 +1,6 @@
 # RDF-GRAPH Playground
 
-An app for development and demonstration of [@equinor/rdf-graph](https://github.com/equinor/rdf-graph).
+An app for development and demonstration of [@posccaesar/rdf-graph](https://github.com/equinor/rdf-graph).
 
 ```sh
 # Clone repo

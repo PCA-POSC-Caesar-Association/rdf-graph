@@ -1,5 +1,5 @@
 import { Table } from '@equinor/eds-core-react';
-import { GraphNode } from '@equinor/rdf-graph';
+import { GraphNode } from '@posccaesar/rdf-graph';
 
 import { useEffect, useState } from 'react';
 import { useGraphContext } from '../../context/GraphContext';

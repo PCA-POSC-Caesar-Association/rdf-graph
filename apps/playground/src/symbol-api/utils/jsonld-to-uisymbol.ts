@@ -1,4 +1,4 @@
-import { UiSymbol } from '@equinor/rdf-graph';
+import { UiSymbol } from '@posccaesar/rdf-graph';
 
 export const jsonLdResponseToUiSymbol = (response: object): UiSymbol[] => {
 	if (!response) {

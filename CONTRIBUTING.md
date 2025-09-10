@@ -1,4 +1,4 @@
-# @equinor/rdf-graph Contributing Guide
+# @posccaesar/rdf-graph Contributing Guide
 
 ## Repository Setup
 
@@ -46,10 +46,10 @@ pnpm test
 nx run-many -t test
 
 # Run a tests for core package
-nx test @equinor/rdf-graph
+nx test @posccaesar/rdf-graph
 
 # Run a tests for gojs package
-nx test @equinor/rdf-graph-go
+nx test @posccaesar/rdf-graph-go
 ```
 
 ## Lefthook - Git hooks manager

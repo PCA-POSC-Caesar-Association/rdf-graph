@@ -1,4 +1,4 @@
-import { GraphPatch, RdfGraph, UiSymbolProvider } from '@equinor/rdf-graph';
+import { GraphPatch, RdfGraph, UiSymbolProvider } from '@posccaesar/rdf-graph';
 import { useEffect, useRef, useState } from 'react';
 import { GraphSelection, useGraphContext } from '../context/GraphContext';
 import { printGraphPatchesToConsole } from '../utils/debug';

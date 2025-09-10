@@ -1,7 +1,7 @@
 // https://dev-engsym-api.azurewebsites.net/symbols
 
 import { useQuery } from '@tanstack/react-query';
-import { UiSymbol } from '@equinor/rdf-graph';
+import { UiSymbol } from '@posccaesar/rdf-graph';
 import { jsonLdResponseToUiSymbol } from '../utils/jsonld-to-uisymbol';
 
 export async function fetchEngineeringSymbols(): Promise<UiSymbol[]> {

@@ -1,5 +1,5 @@
 import { ForceGraph3DInstance } from '3d-force-graph';
-import { GraphEdgePatch, GraphNodePatch, GraphPatch, GraphPropertyPatch } from '@equinor/rdf-graph';
+import { GraphEdgePatch, GraphNodePatch, GraphPatch, GraphPropertyPatch } from '@posccaesar/rdf-graph';
 
 export function internalApplyPatches(patches: GraphPatch[], f3d: ForceGraph3DInstance) {
 	for (const current of patches) {

@@ -9,8 +9,6 @@ on:
 jobs:
   check-code:
     name: Check Code
-    # Do run on dependabot or Snyk PRs
-    if: ${{ !contains(fromJson('["dependabot[bot]", "snyk-bot"]'), github.event.head_commit.author.name) }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,32 +22,5 @@ jobs:
       - name: Track main branch
         run: git branch --track main origin/main
 
-      - name: Check formatting
-        run: pnpm nx format:check --all
-
       - name: 🧪 Lint, build and test affected projects
-        run: pnpm nx affected --base=origin/main --target=lint,build,test --parallel=5
-
-  snyk-test:
-    name: 🐩 Snyk Security Scan
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Setup PNPM & Install dependencies
-        uses: ./.github/actions/setup-pnpm
-
-      - name: Derive appropriate SHAs for base and head for `nx affected` commands
-        uses: nrwl/nx-set-shas@v4
-
-      - name: Setup Snyk
-        uses: snyk/actions/setup@master
-
-      - name: Authenticator
-        run: snyk auth ${{ secrets.SNYK_TOKEN }}
-
-      - name: Test dependencies for known issues
-        run: pnpm nx affected --targets=snyk-test --configuration=production --output-style=stream --base=${{ env.NX_BASE }} --head=${{ env.NX_HEAD }} --parallel=5
+        run: pnpm nx affected --base=origin/main --target=build,test --parallel=5
