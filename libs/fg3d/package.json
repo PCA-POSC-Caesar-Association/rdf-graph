@@ -13,23 +13,23 @@
 	"contributors": [
 		{
 			"name": "Lorentz Fjellanger Barstad",
-			"email": "loba@equinor.com"
+			"email": "lorentz.barstad@webstep.no"
 		},
 		{
 			"name": "Martin Tofteberg Ulvesæter",
-			"email": "mulv@equinor.com"
-		},
-		{
-			"name": "Dzianis Makeichyk",
-			"email": "dzm@equinor.com"
+			"email": "martin.ulvesaeter@webstep.no"
 		},
 		{
 			"name": "Eirik Nordstrand",
-			"email": "einor@equinor.com"
+			"email": "eirik.nordstrand@webstep.no"
 		},
 		{
 			"name": "Arne Måge",
-			"email": "arnm@equinor.com"
+			"email": "arne.mage@webstep.no"
+		},
+		{
+			"name": "Thora Mothes",
+			"email": "thora.mothes@webstep.no"
 		}
 	],
 	"license": "MIT",
